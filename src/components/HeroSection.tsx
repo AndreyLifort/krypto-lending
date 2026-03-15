@@ -141,7 +141,7 @@ export default function HeroSection() {
           {[
             { label: 'Средний чек', value: '25 000 ₽' },
             { label: 'Операций в месяц', value: '~20' },
-            { label: 'Ваша прибыль с одной сделки', value: '1 750 ₽*' },
+            { label: 'Ваша прибыль с одной сделки', value: '1 750 ₽' },
           ].map((row, i) => (
             <div
               key={i}
@@ -179,17 +179,6 @@ export default function HeroSection() {
             </div>
           </div>
 
-          <p
-            style={{
-              marginTop: '1rem',
-              color: '#9CA3AF',
-              fontSize: '0.8rem',
-              lineHeight: 1.5,
-              textAlign: 'center',
-            }}
-          >
-            * При среднем чеке 25 000 ₽. Ваши вложения: <strong style={{ color: '#1A1F36' }}>0 ₽</strong>. Риск невозврата закрыт нашим депозитом.
-          </p>
         </div>
       </div>
     </section>

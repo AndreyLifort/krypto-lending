@@ -154,7 +154,7 @@ export default function HeroSection() {
               }}
             >
               <span style={{ color: '#6B7280', fontSize: '0.9rem' }}>{row.label}</span>
-              <span style={{ color: '#1A1F36', fontWeight: 600, fontSize: '0.9rem' }}>{row.value}</span>
+              <span style={{ color: '#1A1F36', fontWeight: 600, fontSize: '0.9rem', whiteSpace: 'nowrap', marginLeft: '0.5rem' }}>{row.value}</span>
             </div>
           ))}
 
@@ -171,10 +171,10 @@ export default function HeroSection() {
             <div style={{ color: '#6B7280', fontSize: '0.8rem', marginBottom: '0.35rem' }}>
               Доход с одного терминала
             </div>
-            <div style={{ color: '#3B6CF0', fontSize: '1.75rem', fontWeight: 700, lineHeight: 1.2, letterSpacing: '-0.02em' }}>
+            <div style={{ color: '#3B6CF0', fontSize: '1.75rem', fontWeight: 700, lineHeight: 1.2, letterSpacing: '-0.02em', whiteSpace: 'nowrap' }}>
               35 000 ₽/мес
             </div>
-            <div style={{ color: '#3B6CF0', fontSize: '1.05rem', fontWeight: 600, marginTop: '0.15rem' }}>
+            <div style={{ color: '#3B6CF0', fontSize: '1.05rem', fontWeight: 600, marginTop: '0.15rem', whiteSpace: 'nowrap' }}>
               420 000 ₽/год
             </div>
           </div>

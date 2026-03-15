@@ -1,5 +1,4 @@
 import { useScrollReveal } from '../hooks/useScrollReveal';
-import DotGridBackground from './DotGridBackground';
 
 const features = [
   {
